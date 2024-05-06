@@ -1,0 +1,27 @@
+/* @font-face {
+  font-family: 'Minha';
+  src: url('C:/Users/rodri/OneDrive/Documentos/GitHub/Arq.Obj/ULTIMA CHANCE/font.ttf');
+} */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: black;
+}
+
+
+html, body, #root{
+  background-color:rgb(204, 204, 204);
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}

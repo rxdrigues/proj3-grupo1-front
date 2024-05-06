@@ -1,0 +1,15 @@
+.btn {
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
